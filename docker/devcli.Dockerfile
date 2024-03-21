@@ -5,6 +5,7 @@ RUN apt-get clean \
     && apt-get update \
     && apt-get install --no-install-recommends -y \
         zsh \
+        graphviz \
         gh \
         openssh-client \
         rename \
